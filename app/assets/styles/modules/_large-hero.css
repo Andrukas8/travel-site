@@ -13,14 +13,26 @@
   &__title {
     font-weight: 300;
     color: $mainBlue;
-    font-style: 4.8rem;
+    font-size: 1.1rem;
     margin: 0;
+
+    @mixin atSmall {
+      font-size: 2rem;
+    }
+
+    @mixin atMedium {
+      font-size: 3.2rem;
+    }
+
+    @mixin atLarge {
+      font-size: 4.8rem;
+    }
   }
 
   &__subtitle {
     font-weight: 300;
     color: $mainBlue;
-    font-style: 2.9rem;
+    font-size: 1.1rem;
     margin: 0;
   }
 
