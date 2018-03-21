@@ -457,6 +457,16 @@ a {
       padding-right: 18px
   }
   }
+.wrapper--no-padding-until-large {
+    padding-left: 0;
+    padding-right: 0;
+  }
+@media (min-width: 1010px) {
+.wrapper--no-padding-until-large {
+      padding-left: 18px;
+      padding-right: 18px
+  }
+  }
 .wrapper .wrapper {
     padding-left: 0;
     padding-right: 0;
@@ -484,7 +494,7 @@ a {
 .page-section--testimonials {
     background-color: #e0e6ef;
   }
-@media (min-width: 800px) {
+@media (min-width: 1010px) {
 .page-section--testimonials {
       background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
       background-size: cover
@@ -495,6 +505,14 @@ a {
   }
 @media (min-width: 800px) {
 .page-section--no-b-padding-until-medium {
+      padding-bottom: 4.5rem
+  }
+  }
+.page-section--no-b-padding-until-large {
+    padding-bottom: 0;
+  }
+@media (min-width: 1010px) {
+.page-section--no-b-padding-until-large {
       padding-bottom: 4.5rem
   }
   }
@@ -541,6 +559,7 @@ a {
   }
 .row {
 
+
   /* end equal height rules */
 }
 .row::after {
@@ -560,7 +579,7 @@ a {
 .row--gutters-large > div {
     margin-right: 100px;
   }
-@media (min-width: 800px) {
+@media (min-width: 1010px) {
     .row--gutters-small {
       margin-right: -45px;
     }
@@ -603,6 +622,34 @@ a {
       width: 63%;
     }
   }
+@media (min-width: 1010px) {
+    .row__b-margin-until-large {
+      margin-bottom: 0;
+    }
+
+    .row__large-4 {
+      float: left;
+      width: 33.33%;
+    }
+
+    .row__large-4--larger {
+      width: 37%;
+    }
+
+    .row__large-6 {
+      float: left;
+      width: 40%;
+    }
+
+    .row__large-8 {
+      float: left;
+      width: 66.66%;
+    }
+
+    .row__large-8--smaller {
+      width: 63%;
+    }
+  }
 /* Begin equal height rules */
 @media (min-width: 800px) {
 .row--equal-height-at-medium {
@@ -612,6 +659,19 @@ a {
   }
   }
 .row--equal-height-at-medium > div {
+      float: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+@media (min-width: 1010px) {
+.row--equal-height-at-large {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex
+  }
+  }
+.row--equal-height-at-large > div {
       float: none;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -701,7 +761,7 @@ a {
   padding: 0 18px 1px 18px;
   margin-bottom: 98px;
 }
-@media (min-width: 800px) {
+@media (min-width: 1010px) {
 .testimonial {
     margin-bottom: 0;
     padding: 0 1.8125rem 1px 1.8125rem
