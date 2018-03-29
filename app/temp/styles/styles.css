@@ -896,8 +896,13 @@ a {
   }
 @media (min-width: 800px) {
 .site-header {
-    background-color: rgba(47,85,114, 0.3)
+    background-color: rgba(47,85,114, 0.3);
+    position: fixed
 }
+
+    .site-header--dark {
+      background-color: rgba(23, 51, 72, 0.85);
+    }
   }
 @media (min-width: 800px) {
 .site-header__btn-container {
@@ -912,6 +917,10 @@ a {
     left: 50%;
     -webkit-transform: translateX(-50%) scale(0.8);
             transform: translateX(-50%) scale(0.8);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
     -webkit-transform-origin: 50% 0;
             transform-origin: 50% 0;
   }
@@ -921,6 +930,11 @@ a {
       -webkit-transform: translateX(0);
               transform: translateX(0)
   }
+
+      .site-header--dark .site-header__logo {
+        -webkit-transform: scale(0.57);
+                transform: scale(0.57);
+      }
   }
 .site-header__logo__graphic {
       text-indent: -9999px;
@@ -1073,6 +1087,10 @@ a {
       font-size: 1rem;
       background-color: transparent
   }
+
+      .primary-nav a.is-current-link {
+        color: #fabb69;
+      }
   }
 .reveal-item {
   opacity: 0;
