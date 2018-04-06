@@ -505,7 +505,7 @@ a {
   }
 @media (min-width: 1010px) {
       .page-section--testimonials.lazyloaded {
-        background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+        background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat;
         background-size: cover;
       }
   }
@@ -810,64 +810,64 @@ a {
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp */
 /* Instead eddit gulp/templates/sprite */
 .icon {
-  background-image: url('/assets/images/sprites/sprite-69f19c2e.svg');
+    background-image: url('../../assets/images/sprites/sprite-69f19c2e.svg');
 }
-.icon--clear-view-escapes {
+.icon--clear-view-escapes{
   width: 142.4px;
   height: 59.53px;
   background-position: 0 0;
 }
-.icon--comment {
+.icon--comment{
   width: 64px;
   height: 64px;
   background-position: 99.70443349753694% 0;
 }
-.icon--facebook {
+.icon--facebook{
   width: 21.23px;
   height: 42.01px;
   background-position: 26.040607071652357% 45.795830448496034%;
 }
-.icon--fire {
+.icon--fire{
   width: 56px;
   height: 64px;
   background-position: 0 99.56481481481481%;
 }
-.icon--globe {
+.icon--globe{
   width: 64px;
   height: 64px;
   background-position: 27.586206896551722% 99.56481481481481%;
 }
-.icon--instagram {
+.icon--instagram{
   width: 42.01px;
   height: 42.01px;
   background-position: 63.2917018534157% 49.234556504346486%;
 }
-.icon--mail {
+.icon--mail{
   width: 64px;
   height: 48px;
   background-position: 0 48.00806451612903%;
 }
-.icon--rain {
+.icon--rain{
   width: 64px;
   height: 64px;
   background-position: 99.70443349753694% 59.25925925925926%;
 }
-.icon--star {
+.icon--star{
   width: 64px;
   height: 64px;
   background-position: 59.11330049261084% 99.56481481481481%;
 }
-.icon--twitter {
+.icon--twitter{
   width: 51.78px;
   height: 42.06px;
   background-position: 94.04330452560171% 98.50700323226104%;
 }
-.icon--wifi {
+.icon--wifi{
   width: 60px;
   height: 64px;
   background-position: 68.79227053140097% 0;
 }
-.icon--youtube {
+.icon--youtube{
   width: 34.75px;
   height: 42px;
   background-position: 36.69752421959096% 45.792307692307695%;
